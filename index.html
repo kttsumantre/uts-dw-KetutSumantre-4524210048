@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulir Pendaftaran Kampus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Formulir Pendaftaran Mahasiswa Baru</h1>
+  </header>
+
+  <main>
+    <form action="#" method="post">
+      <label for="nama">Nama Lengkap:</label> <br>
+      <input type="text" id="nama" name="nama" required> <br><br>
+
+      <label for="ttl">Tempat, Tanggal Lahir:</label> <br>
+      <input type="text" id="ttl" name="ttl" placeholder="Contoh: Denpasar, 1 Januari 2000">  <br><br>
+
+      <label>Jenis Kelamin:</label><br>
+        <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+        <input type="radio" name="jk" value="Perempuan"> Perempuan <br><br>
+
+
+      <label for="prodi">Program Studi:</label> <br>
+      <select id="prodi" name="prodi" required>
+        <option value="">-- Pilih Fakultas --</option>
+        <option>Ekonomi dan Bisinis</option>
+        <option>Farmasi</option>
+        <option>Hukum</option>
+        <option>Teknik</option>
+        <option>Hukum</option>
+        <option>Ilmu Komunikasi</option>
+        <option>Psikolog</option>
+        <option>Parwisata</option>
+      </select> <br><br>
+
+      <label for="email">Email:</label> <br>
+      <input type="email" id="email" name="email" required> <br><br>
+
+      <label for="telepon">No. Telepon:</label> <br>
+      <input type="tel" id="telepon" name="telepon" placeholder="08xxxxxxxxxx"> <br><br>
+
+      <button type="submit">Daftar</button>
+    </form>
+
+    <!-- Area Pratinjau -->
+    <section id="preview-area">
+      <h2>Biodata Pendaftaran</h2>
+      <p><strong>Nama : </strong> <span id="preview-nama">-</span></p>
+      <p><strong>TTL : </strong> <span id="preview-ttl">-</span></p>
+      <p><strong>Jenis Kelamin : </strong> <span id="preview-jk">-</span></p>
+      <p><strong>Prodi : </strong> <span id="preview-prodi">-</span></p>
+      <p><strong>Email : </strong> <span id="preview-email">-</span></p>
+      <p><strong>Telepon : </strong> <span id="preview-telepon">-</span></p>
+    </section>
+  </main>
+
+  <footer>
+    <p style="text-align:center; margin-top:1rem;">&copy; Ketut Sumantre 2024</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
