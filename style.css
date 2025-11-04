@@ -1,0 +1,139 @@
+/* === RESET & DASAR === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f5f7fb;
+  color: #222;
+  padding: 1rem;
+  line-height: 1.6;
+}
+
+header {
+  background: #91caff;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+form label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form input[type="radio"] {
+  width: auto;
+  margin-right: 0.4rem;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#preview-area {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  width: 100%;
+}
+
+#preview-area h2 {
+  text-align: center;
+  color: #1e4fa1;
+  border-bottom: 2px solid #1e4fa1;
+  padding-bottom: 6px;
+  margin-bottom: 1rem;
+}
+
+#preview-area p {
+  display: flex;
+  justify-content: flex-start;
+  margin: 8px 0;
+  flex-wrap: wrap;
+}
+
+#preview-area strong {
+  display: inline-block;
+  min-width: 140px;
+  font-weight: 600;
+  text-align: right;
+  padding-right: 10px;
+}
+
+#preview-area span {
+  color: #333;
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: #555;
+}
+
+@media (min-width: 768px) {
+  main {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 600px) {
+  form, #preview-area {
+    padding: 1.2rem;
+  }
+
+  #preview-area strong {
+    min-width: 100px;
+    text-align: left;
+  }
+}
