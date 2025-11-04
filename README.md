@@ -2,7 +2,7 @@
 
 ## 👤 Identitas
 - **Nama :** Ketut Sumantre  
-- **NIM  :** 4524210048  
+- **NPM  :** 4524210048  
 - **Topik Generator yang Dipilih:** Generator Biodata Pendaftaran Mahasiswa  
 
 ---
@@ -17,4 +17,4 @@
 - [x] Menerapkan JavaScript Live Preview (minimal 3 input)  
 
 
-© 2025 Ketut Sumantre
+©  Ketut Sumantre 2024
